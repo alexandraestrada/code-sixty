@@ -1,5 +1,13 @@
-
+/*.top-bar {
+	background-color: white;
+	color:#333333;
+}
+.top-bar .name h1 a {
+	color:#333333;
+	font-family: 'Orbitron', sans-serif;
+	
+}
 .hero {
   background-color: purple;
   height: 50%;
-}
+}*/
