@@ -6,40 +6,57 @@
 
   <title>Welcome to Code Sixty</title>
  
-
-  <link rel="stylesheet" type="text/css" href="/assets/css/foundation.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-  <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
 
 
 </head>
 
 <body>
 
+  <!-- <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1>codeSixty</h1>
+      </li>
+
+    </ul>
+
+   
+  </nav> -->
+
   <nav class="top-bar" data-topbar role="navigation">
     <ul class="title-area">
       <li class="name">
-        <h1><a href="#">CODE SIXTY</a></h1>
+        <h1><a href="#">My Site</a></h1>
       </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
 
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
-        <li class="active"><a href="#">Home</a></li>
-        <li class=""><a href="#">Link 1</a></li>
-        <li class=""><a href="#">Link 2</a></li>
-        <li class=""><a href="#">Link 3</a></li>
+        <li class="active"><a href="#">Right Button Active</a></li>
+        <li class="has-dropdown">
+          <a href="#">Right Button Dropdown</a>
+          <ul class="dropdown">
+            <li><a href="#">First link in dropdown</a></li>
+            <li class="active"><a href="#">Active link in dropdown</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li><a href="#">Left Nav Button</a></li>
       </ul>
     </section>
   </nav>
 
-  <section class="hero">
+  <section class="hero debug">
     <div class="row intro">
-      <div class="small-centered medium-uncentered medium-6 large-7 columns">
+      <div class="small-centered medium-uncentered medium-6 large-7 columns debug">
         <h1>Learn To Code</h1>
         <p>Welcome to Code 60, your coding resource guide.</p>
       </div>
@@ -47,7 +64,7 @@
   </section>
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="/assets/js/foundation.js"></script>
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/foundation/foundation.min.js"></script>
 </body>
 </html>
