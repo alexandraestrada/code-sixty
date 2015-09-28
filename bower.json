@@ -1,0 +1,22 @@
+{
+  "name": "code-sixty",
+  "version": "0.0.1",
+  "homepage": "https://www.code-sixty.com",
+  "authors": [
+    "Sean Sassenrath & Alexandra Estrada"
+  ],
+  "description": "instructional coding website",
+  "main": "server.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
