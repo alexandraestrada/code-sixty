@@ -1,1 +1,14 @@
 .debug { border: 1px solid red; }
+
+/*background colors */
+.bgc-off-white { background-color: #F4F2F0 !important; }
+.bgc-gray-blue { background-color: #52555c !important; }
+.bgc-blue { background-color: #576c78 !important; }
+
+.top-bar { background-color: #F4F2F0 !important; }
+.top-bar-section li:not(.has-form) a:not(.button) { background-color: #F4F2F0 !important; }
+
+/*fonts*/
+
+/*font colors*/
+.c-blue { color: #576c78 !important;}
